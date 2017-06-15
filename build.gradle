@@ -26,10 +26,6 @@ dependencies {
     testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = "2.7"
-}
-
 test {
     testLogging {
         events "passed", "skipped", "failed"
