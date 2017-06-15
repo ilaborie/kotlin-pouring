@@ -9,6 +9,8 @@ class HelloTest {
     fun `a plopper should plop`() {
         fun plopper() = "plop"
         assertEquals("plop", plopper())
+
+        main(emptyArray())
     }
 
 }

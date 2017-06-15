@@ -37,8 +37,8 @@ Guideline (try to implements with immutable data structure)
 40. define a `solve` function with form and to `State` and returning a `List` of `Move`
     do not implement the function, use `TODO()` for the moment
 41. create a `main` method, into this method
-    create initial state 8/0, 5/0, and 3/0 `Glass`
-    create final state 8/4, 5/0, and 3/0 `Glass`
+    create initial state 0/8, 0/5, and 0/3 `Glass`
+    create final state 4/8, 0/5, and 0/3 `Glass`
 42. call `solve` to obtain result
     display all moves using `forEach` with a lambda
 
