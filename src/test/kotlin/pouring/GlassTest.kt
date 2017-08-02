@@ -2,6 +2,8 @@ package pouring
 
 import org.junit.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
 class GlassTest {
 
@@ -87,6 +89,34 @@ class GlassTest {
 //        val result = glass - 5
 //
 //        assertEquals(Glass(4, 0), result)
+//    }
+
+    // step 20
+//    @Test
+//    fun `a Glass should have isEmpty`() {
+//        assertTrue(Glass(4).isEmpty())
+//        assertFalse(Glass(4,1).isEmpty())
+//    }
+
+    // step 20
+//    @Test
+//    fun `a Glass should have isFill`() {
+//        assertFalse(Glass(4).isFill())
+//        assertTrue(Glass(4,4).isFill())
+//    }
+
+    // step 21
+//    @Test
+//    fun `a Glass should have isEmpty`() {
+//        assertTrue(Glass(4).isEmpty)
+//        assertFalse(Glass(4,1).isEmpty)
+//    }
+
+    // step 21
+//    @Test
+//    fun `a Glass should have isFill`() {
+//        assertFalse(Glass(4).isFill)
+//        assertTrue(Glass(4,4).isFill)
 //    }
 
 }

@@ -54,24 +54,29 @@ Guideline (try to implements with immutable data structure)
     Note: avoid empty an already emptied class
     Note: avoid fill an already filled class
     Note: you cannot pour a glass to itself
+20. (bonus) create helper function `isEmpty` and `isFill` in `Glass` 
+21. (bonus) transform helper function `isEmpty` and `isFill` to lazy val in `Glass` 
 
-20. create a private `solveAux` recursive function
+22. create a private `solveAux` recursive function
     with a `List` of `Pair` of `State` and `List` of `Move`,
     with a target `State`,
     and with a `Set` of already visited `State`
     returning the `List` of `Move`
     skip implementation with `TODO()`
-21. implements `solve` function with the `solveAux` method
-22. for the `sloveAux` real implementation 
+23. implements `solve` function with the `solveAux` method
+24. for the `sloveAux` real implementation 
     first implement the terminal case
-23. then create the next `List` of `Pair<State, List<Move>>`
-24. create the new `List` of visited `State`
-25. finish the recursion
-26. (bonus) use a `typealias` for `Pair<State, List<Move>>`
-27. (bonus) use a `tailrec`
-28. (bonus) make `solveAux` an internal function into `solve`, remove the `target` argument (closure)
+25. then create the next `List` of `Pair<State, List<Move>>`
+26. create the new `List` of visited `State`
+27. finish the recursion
+28. (bonus) use a `typealias` for `Pair<State, List<Move>>`
+29. (bonus) use a `tailrec`
+30. (bonus) make `solveAux` an internal function into `solve`, remove the `target` argument (closure)
 
-29. drink non-empty glass ;-)
+31. (bonus) safety check for data class using `init` block
+32. (bonus) safety check `solve` and `solveAux`
+
+33. drink non-empty glass ;-)
 
 A solution
 ---
